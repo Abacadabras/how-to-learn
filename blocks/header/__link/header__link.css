@@ -1,0 +1,9 @@
+.header__link {
+  text-decoration: none;
+  color: var(--color-link);
+  transition: opacity .8s ease-out;
+}
+
+.header__link:hover {
+  opacity: .6;
+}
