@@ -89,83 +89,14 @@
 @import url('../blocks/resources/__section-title/resources__section-title.css');
 @import url('../blocks/resources/__section-subtitle/resources__section-subtitle.css');
 
-
-
-
-.footer {
-  padding: 60px 0 40px;
-  background-color: var(--color-dark-bg);
-  color: var(--color-text-l);
-  display: flex;
-  min-height: 350px;
-  box-sizing: border-box;
-}
-
-.footer__columns {
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.footer__column {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.footer__column_content_copyright {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-basis: 711px;
-}
-
-.footer__column_content_info {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-}
-
-.footer__column_content_social {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-}
-
-.footer__author {
-  margin: 18px 0;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.footer__column-heading {
-  margin: 0;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.footer__column-links {
-  margin: 20px 0 16px;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.footer__column-link {
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  text-decoration: none;
-  color: var(--color-text-l);
-}
-
-.footer__social-icon {
-  margin-right: 10px;
-  width: 16px;
-  height: 16px;
-}
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__columns/footer__columns.css');
+@import url('../blocks/footer/__column/footer__column.css');
+@import url('../blocks/footer/__column/_content/footer__column_content_copyright.css');
+@import url('../blocks/footer/__column/_content/footer__column_content_info.css');
+@import url('../blocks/footer/__column/_content/footer__column_content_social.css');
+@import url('../blocks/footer/__author/footer__author.css');
+@import url('../blocks/footer/__column-heading/footer__column-heading.css');
+@import url('../blocks/footer/__column-links/footer__column-links.css');
+@import url('../blocks/footer/__column-link/footer__column-link.css');
+@import url('../blocks/footer/__social-icon/footer__social-icon.css');
