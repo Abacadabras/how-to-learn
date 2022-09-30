@@ -47,6 +47,13 @@
 
 @import url('../blocks/oakley/oakley.css');
 
+@import url('../blocks/feynman/feynman.css');
+@import url('../blocks/feynman/__title/feynman__title.css');
+@import url('../blocks/feynman/__subtitle/feynman__subtitle.css');
+@import url('../blocks/feynman/__link/feynman__link.css');
+
+
+
 
 
 .digits {
@@ -108,47 +115,7 @@
   color: var(--color-text-l);
 }
 
-.feynman {
-  position: relative;
-  background-color: var(--color-light-bg);
-  background-image: url(../images/feynman.png);
-  background-size: 867px 637px;
-  background-repeat: no-repeat;
-  background-position: bottom left;
-  padding-top: 100px;
-  min-height: 790px;
-}
 
-.feynman__title {
-  width: 648px;
-  z-index: 100;
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: 600;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.feynman__subtitle {
-  z-index: 100;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  text-align: center;
-  margin: 70px 0 0 auto;
-}
-
-.feynman__link {
-  position: absolute;
-  top: 50%;
-  right: 48px;
-  z-index: 100;
-  text-decoration: none;
-  color: var(--color-link);
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-}
 
 .kaufman {
   padding: 90px 0;
