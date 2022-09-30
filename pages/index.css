@@ -23,7 +23,21 @@
 @import url('../blocks/two-columns/__paragraph/two-columns__paragraph.css');
 @import url('../blocks/two-columns/__span-accent/two-columns__span-accent.css');
 
+@import url('../blocks/section-title/section-title.css');
+@import url('../blocks/section-title/_theme/section-title_theme_dark.css');
 
+@import url('../blocks/section-subtitle/section-subtitle.css');
+@import url('../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css');
+
+@import url('../blocks/techniques/techniques.css');
+@import url('../blocks/techniques/__section-title/techniques__section-title.css');
+@import url('../blocks/techniques/__section-subtitle/techniques__section-subtitle.css');
+
+@import url('../blocks/cards/cards.css');
+@import url('../blocks/cards/__description/cards__description.css');
+@import url('../blocks/cards/__image/cards__image.css');
+@import url('../blocks/cards/__item/cards__item.css');
+@import url('../blocks/cards/__title/cards__title.css');
 
 
 
@@ -34,36 +48,8 @@
   align-items: center;
 }
 
-.section-title {
-  width: 60%;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-  margin: 0;
-}
-
 .digits__section-title {
   margin-bottom: 20px;
-}
-
-.section-title_theme_dark {
-  color: var(--color-text-l);
-  z-index: 100;
-}
-
-.section-subtitle {
-  width: 60%;
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin: 0;
-}
-
-.section-subtitle_theme_dark {
-  color: var(--color-text-l);
-  z-index: 100;
 }
 
 .table {
