@@ -1,5 +1,4 @@
 .resources__logo-zone {
   display: flex;
-  max-width: 1100px;
-  margin: 80px 0 0;
+  width: 1100px;
 }
